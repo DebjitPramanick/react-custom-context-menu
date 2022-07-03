@@ -14,7 +14,7 @@ jobs:
           cache: npm
           node-version: 16
           registry-url: https://npm.pkg.github.com
-          scope: '@DebjitPramanick'
+          scope: '@debjitpk'
       - run: npm install
       - run: npm publish
         env:
