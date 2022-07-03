@@ -7,7 +7,6 @@ const ContextMenuUI: React.FC<IContextMenuProps> = ({
     backgroundType = 'normal',
     theme = 'dark'
 }) => {
-
     // Getting theme type
     const isLight = theme === 'light';
     const isDark = theme === 'dark';
