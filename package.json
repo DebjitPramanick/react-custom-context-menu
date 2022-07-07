@@ -1,10 +1,14 @@
 {
   "name": "react-custom-context-menu",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@debjitpk"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm login --registry=https://npm.pkg.github.com --scope=@debjitpk && npm publish"
   },
   "author": "debjitpk",
   "license": "ISC",
